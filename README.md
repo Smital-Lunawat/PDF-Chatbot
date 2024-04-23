@@ -33,6 +33,13 @@ source venv/bin/activate
 ```bash
 venv\Scripts\activate
 ```
+## Backend Server
+- Start the backend server
+```bash
+python app.py
+```
+
+
 ## Frontend Setup
 
 ### Install npm packages
