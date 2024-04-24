@@ -62,5 +62,30 @@ npm start
 OPENAI_API_KEY=your_openai_api_key_here
 ```
 
+## Aechitecture and Technologies used
+The chat application utilizes a client-server architecture with a React frontend for the client-side interface and a Python backend for the server-side logic. 
+
+### Frontend (Client-side):
+- React
+- npm Packages
+
+
+### Backend (Server-side):
+- Python
+- Flask 
+- OpenAI API 
+- Langchain
+- Faiss-CPU 
+- PyPDF
+
+## Assumptions and Limitations
+- There can only be one question asked at a time after that is answered, another question can be asked.
+- It takes a little time to answer so hold tight.
+
+## Bonus
+- Any pdf file can be read. A file can be choosen and then uploaded file is used using RESTAPI. 
+
+
+
 
 
