@@ -17,7 +17,7 @@ function App() {
     formData.append('pdf', selectedFile);
 
     try {
-      const response = await axios.post('http://localhost:10000/upload-pdf', formData);
+      const response = await axios.post('http://localhost:5000/upload-pdf', formData);
       console.log(response.data);
       setUploadStatus('File uploaded successfully!');
     } catch (error) {
@@ -32,7 +32,7 @@ function App() {
 
   const handleAskQuestion = async () => {
     try {
-      const response = await axios.post('http://localhost:10000/ask-question', { question });
+      const response = await axios.post('http://localhost:5000/ask-question', { question });
       setAnswer(response.data.answer);
     } catch (error) {
       console.error('Error asking question:', error);
