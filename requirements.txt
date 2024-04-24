@@ -1,6 +1,6 @@
-dotenv
+python-dotenv
 langchain 
 PyPDF2 
 faiss-cpu 
-langchain-openai
-flask-cors
+langchain_openai
+Flask-Cors
