@@ -4,3 +4,4 @@ PyPDF2
 faiss-cpu 
 langchain_openai
 Flask-Cors
+langchain-google-genai
