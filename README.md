@@ -59,7 +59,7 @@ npm start
 - Add the following environment variable to the `.env` file:
 
 ```plaintext
-OPENAI_API_KEY=your_openai_api_key_here
+GOOGLE_API_KEY=your_google_api_key_here
 ```
 
 ## Aechitecture and Technologies used
@@ -73,7 +73,7 @@ The chat application utilizes a client-server architecture with a React frontend
 ### Backend (Server-side):
 - Python
 - Flask 
-- OpenAI API 
+- langchain-google-genai 
 - Langchain
 - Faiss-CPU 
 - PyPDF
