@@ -16,8 +16,8 @@ load_dotenv()
 os.getenv("OPENAI_API_KEY")
 
 app = Flask(__name__)
-# CORS(app)  # Enable CORS on all routes
-CORS(app, resources={r"/upload-pdf": {"origins": "https://pdf-chatbot-delta.vercel.app"}})
+CORS(app)  # Enable CORS on all routes
+# CORS(app, resources={r"/upload-pdf": {"origins": "https://pdf-chatbot-delta.vercel.app"}})
 
 
 # Configuration for file uploads
@@ -117,5 +117,5 @@ def ask_question():
     return jsonify({'answer': answer})
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0")     
-    # app.run(debug=True)
+    # app.run(host="0.0.0.0")     
+    app.run(debug=True)
