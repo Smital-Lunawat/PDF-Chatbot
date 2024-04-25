@@ -2,7 +2,7 @@
 
 The application should allow users to ask questions related to a specific PDF document, with the LLM providing accurate answers. 
 
-(Hosted on [Link to the webapp] psw726zg-3000.use.devtunnels.ms/)t
+[Link to the webapp](https://psw726zg-3000.use.devtunnels.ms/)
 
 ## Prerequisites
 
